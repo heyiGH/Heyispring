@@ -120,7 +120,6 @@ public class MySpringApplicationContext {
                                 beanPostProcessorList.add(instance);
                             }
 
-
                             // 表示当前这个类是一个bean配置类
                             // 解析类，判断当前bean是单例还是prototype的bean ->  BeanDefinition
                             Component componentAnnotation = clazz.getDeclaredAnnotation(Component.class);
